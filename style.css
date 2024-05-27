@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --bg-color: #f4f6fa;
+    --purple: #a729f5;
+    --wigth: #fff;
+    --bg-mobile: url(./assets/images/patern-backgroud-mobile-ligth.svg);
+}
+
+body {
+    height: 100svh;
+    background: var(--bg-mobile) var(--bg-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+header{
+    padding: 16px 24px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tema {
+    padding: 16px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.tem img {
+width: 16px;
+}
+
+.tema button {
+    height: 20px;
+    width: 32px;
+    background: var(--purple);
+    border: 0;
+    border-radius: 99px;
+    padding: 4px;
+}
+
+.tema button div{
+    background: var(--wigth);
+    width: 12px;
+    height: 12px;
+    border-radius: 999px;
+}
