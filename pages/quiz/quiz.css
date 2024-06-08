@@ -164,6 +164,24 @@ main {
     }
 }
 
+.alternativas label#coreta {
+    outline: 3px solid var(--gren);
+
+    & span{
+        background: var(--gren);
+        color: var(--wigth);
+    }
+}
+
+.alternativas label#errada {
+    outline: 3px solid var(--red);
+
+    & span {
+        background: var(--red);
+        color: var(--wigth);
+    }
+}
+
 .alternativas input {
     display: none;
 }
