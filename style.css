@@ -68,6 +68,7 @@ width: 16px;
     border-radius: 99px;
     padding: 4px;
     display: flex;
+    cursor: pointer;
 }
 
 .tema button div{
