@@ -192,7 +192,7 @@ main {
     }
 }
 
-.alternativas label#coreta {
+.alternativas label#correta {
     outline: 3px solid var(--gren);
 
     & span{
